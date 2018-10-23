@@ -12,6 +12,7 @@ dependencies:
 
   override:
     - echo "bar"
+    - echo "baz"
 
 ## Customize test commands
 test:
