@@ -13,6 +13,7 @@ dependencies:
   override:
     - echo "bar"
     - echo "baz"
+    - echo "$(cat fox-in-socks.txt)"
 
 ## Customize test commands
 test:
