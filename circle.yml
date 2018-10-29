@@ -11,11 +11,9 @@ machine:
 dependencies:
 
   override:
-    - echo "bar"
-    - echo "baz"
     - echo "$(cat fox-in-socks.txt)"
 
 ## Customize test commands
 test:
   override:
-    - echo "foo"
+    - echo "just fox in socks now"
